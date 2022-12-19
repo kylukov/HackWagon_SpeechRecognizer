@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'PragmaticaCondCTT';
+	src: url('./fonts/pragmaticacondctt.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('./fonts/pragmaticacondctt.woff2') format('woff2'), /* Super Modern Browsers */
+		url('./fonts/pragmaticacondctt.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('./fonts/pragmaticacondctt.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('./fonts/pragmaticacondctt.svg#pragmaticacondctt') format('svg'); /* Chrome < 4, Legacy iOS */
+}

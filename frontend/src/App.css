@@ -1,0 +1,52 @@
+@import url('assets/resetter.css');
+@import url('assets/pragmaticacondctt.css');
+
+* {
+    font-family: 'PragmaticaCondCTT', sans-serif;
+    font-weight: 400;
+}
+
+html, 
+body,
+#root {
+    height: 100%;
+}
+
+#root {
+    display: flex;
+}
+
+#main {
+    width: 100%;
+    padding: 16px 26px 0 26px;
+}
+
+.loader {
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
+    background-color: #fff;
+}
+
+.loader.hide {
+    animation: hideLoader 0.5s linear forwards;
+}
+
+@keyframes hideLoader {
+    0% {
+        opacity: 1;
+    }
+    99% {
+        opacity: 0;
+    }
+    100% {
+        display: none;
+        opacity: 0;
+        z-index: -1000;
+    }
+}

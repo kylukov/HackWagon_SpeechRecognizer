@@ -1,0 +1,5 @@
+.idea
+venv
+media
+pycache
+speech_recognition
