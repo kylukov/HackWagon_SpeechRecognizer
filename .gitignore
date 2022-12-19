@@ -2,4 +2,5 @@
 venv
 media
 pycache
-speech_recognition
+Speech/__pycache__
+.DS_Store
